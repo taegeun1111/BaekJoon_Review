@@ -1,8 +1,10 @@
+package 오답노트;
+
 import java.io.IOException;
 import java.util.Scanner;
 
+public class backJoon10809 {
 
-public class Main {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
@@ -20,9 +22,10 @@ public class Main {
             }
         }
 
-        for (int var : arr) {
+        for (int var : arr ) {
             System.out.print(var+" ");
         }
+
+
     }
 }
-
