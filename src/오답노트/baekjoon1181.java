@@ -16,7 +16,7 @@ public class baekjoon1181 {
             arr[i] = in.nextLine();
         }
 
-        Arrays.sort(arr, (s1, s2) -> {
+        Arrays.sort(arr, (s1, s2) -> { //값이 음수면 그대로, 양수면 순서 바꿈
             // 단어 길이가 같을 경우
             if (s1.length() == s2.length()) {
                 return s1.compareTo(s2);  //모르겠다
