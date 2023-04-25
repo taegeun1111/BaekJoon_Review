@@ -2,7 +2,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-!**/src/오답노트/Main
+!**/src/Main.java
 
 ### Eclipse ###
 .apt_generated
